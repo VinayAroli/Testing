@@ -1,0 +1,2582 @@
+[
+    {
+        "id": 1,
+        "time": "2023-04-24 09:50:26.521",
+        "level": "VERBOSE",
+        "message": "[debug] [HTTP] Request idempotency key: 33d043e0-a05e-43e9-ab39-5e4d2d1d2af9"
+    },
+    {
+        "id": 2,
+        "time": "2023-04-24 09:50:26.523",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session"
+    },
+    {
+        "id": 3,
+        "time": "2023-04-24 09:50:26.523",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"capabilities\":{\"firstMatch\":[{\"appium:deviceOrientation\":\"portrait\",\"appium:appActivity\":\"com.avon.avonon.presentation.screens.splash.SplashActivity\",\"platformName\":\"Android\",\"appium:deviceName\":\"Google_Pixel_7_real\",\"appium:automationName\":\"UiAutomator2\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"appium:appPackage\":\"com.avon.avonon.uat\"}]}}"
+    },
+    {
+        "id": 4,
+        "time": "2023-04-24 09:50:26.523",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Calling AppiumDriver.createSession() with args: [null,null,{\"firstMatch\":[{\"appium:deviceOrientation\":\"portrait\",\"appium:appActivity\":\"com.avon.avonon.presentation.screens.splash.SplashActivity\",\"platformName\":\"Android\",\"appium:deviceName\":\"Google_Pixel_7_real\",\"appium:automationName\":\"UiAutomator2\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"appium:appPackage\":\"com.avon.avonon.uat\"}]}]"
+    },
+    {
+        "id": 5,
+        "time": "2023-04-24 09:50:26.524",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Event 'newSessionRequested' logged at 1682329826524 (09:50:26 GMT+0000 (Coordinated Universal Time))"
+    },
+    {
+        "id": 6,
+        "time": "2023-04-24 09:50:26.526",
+        "level": "VERBOSE",
+        "message": "[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:"
+    },
+    {
+        "id": 7,
+        "time": "2023-04-24 09:50:26.526",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   suppressKillServer"
+    },
+    {
+        "id": 8,
+        "time": "2023-04-24 09:50:26.526",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   chromedriverPorts"
+    },
+    {
+        "id": 9,
+        "time": "2023-04-24 09:50:26.526",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   chromedriverChromeMappingFile"
+    },
+    {
+        "id": 10,
+        "time": "2023-04-24 09:50:26.526",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   adbPort"
+    },
+    {
+        "id": 11,
+        "time": "2023-04-24 09:50:26.526",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   uiautomator2ServerInstallTimeout"
+    },
+    {
+        "id": 12,
+        "time": "2023-04-24 09:50:26.527",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   chromedriverExecutableDir"
+    },
+    {
+        "id": 13,
+        "time": "2023-04-24 09:50:26.527",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   remoteAppsCacheLimit"
+    },
+    {
+        "id": 14,
+        "time": "2023-04-24 09:50:26.527",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   systemPort"
+    },
+    {
+        "id": 15,
+        "time": "2023-04-24 09:50:26.635",
+        "level": "VERBOSE",
+        "message": "[Appium] Appium v1.22.2 creating new AndroidUiautomator2Driver (v1.70.1) session"
+    },
+    {
+        "id": 16,
+        "time": "2023-04-24 09:50:26.636",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Creating session with W3C capabilities: {"
+    },
+    {
+        "id": 17,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]   \"alwaysMatch\": {"
+    },
+    {
+        "id": 18,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"platformName\": \"Android\","
+    },
+    {
+        "id": 19,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"sauce:options\": {"
+    },
+    {
+        "id": 20,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]       \"name\": \"Android Google Pixel 7a Run\""
+    },
+    {
+        "id": 21,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     },"
+    },
+    {
+        "id": 22,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:suppressKillServer\": true,"
+    },
+    {
+        "id": 23,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:chromedriverPorts\": ["
+    },
+    {
+        "id": 24,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]       ["
+    },
+    {
+        "id": 25,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]         26080,"
+    },
+    {
+        "id": 26,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]         26090"
+    },
+    {
+        "id": 27,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]       ]"
+    },
+    {
+        "id": 28,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     ],"
+    },
+    {
+        "id": 29,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:chromedriverChromeMappingFile\": \"/root/.testobject_devices/work/chromedriver-mapping.json\","
+    },
+    {
+        "id": 30,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:adbPort\": 15008,"
+    },
+    {
+        "id": 31,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:uiautomator2ServerInstallTimeout\": \"60000\","
+    },
+    {
+        "id": 32,
+        "time": "2023-04-24 09:50:26.637",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:chromedriverExecutableDir\": \"/root/.testobject_devices/work/chromedrivers\","
+    },
+    {
+        "id": 33,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:remoteAppsCacheLimit\": 0,"
+    },
+    {
+        "id": 34,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:systemPort\": 8208,"
+    },
+    {
+        "id": 35,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:deviceOrientation\": \"portrait\","
+    },
+    {
+        "id": 36,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:appActivity\": \"com.avon.avonon.presentation.screens.splash.SplashActivity\","
+    },
+    {
+        "id": 37,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:deviceName\": \"Google_Pixel_7_real\","
+    },
+    {
+        "id": 38,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:automationName\": \"UiAutomator2\","
+    },
+    {
+        "id": 39,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     \"appium:appPackage\": \"com.avon.avonon.uat\""
+    },
+    {
+        "id": 40,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]   },"
+    },
+    {
+        "id": 41,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]   \"firstMatch\": ["
+    },
+    {
+        "id": 42,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]     {}"
+    },
+    {
+        "id": 43,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver]   ]"
+    },
+    {
+        "id": 44,
+        "time": "2023-04-24 09:50:26.638",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] }"
+    },
+    {
+        "id": 45,
+        "time": "2023-04-24 09:50:26.640",
+        "level": "VERBOSE",
+        "message": "[BaseDriver] Number capability passed in as string. Functionality may be compromised."
+    },
+    {
+        "id": 46,
+        "time": "2023-04-24 09:50:26.642",
+        "level": "VERBOSE",
+        "message": "[BaseDriver] Capability 'uiautomator2ServerInstallTimeout' changed from string ('60000') to integer (60000). This may cause unexpected behavior"
+    },
+    {
+        "id": 47,
+        "time": "2023-04-24 09:50:26.644",
+        "level": "VERBOSE",
+        "message": "[BaseDriver] The following capabilities were provided, but are not recognized by Appium:"
+    },
+    {
+        "id": 48,
+        "time": "2023-04-24 09:50:26.644",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   sauce:options"
+    },
+    {
+        "id": 49,
+        "time": "2023-04-24 09:50:26.644",
+        "level": "VERBOSE",
+        "message": "[BaseDriver]   deviceOrientation"
+    },
+    {
+        "id": 50,
+        "time": "2023-04-24 09:50:26.645",
+        "level": "VERBOSE",
+        "message": "[BaseDriver] Session created with session id: 0145fbb2-eb06-41b3-8af9-938c066276fe"
+    },
+    {
+        "id": 51,
+        "time": "2023-04-24 09:50:26.645",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Starting 'com.avon.avonon.uat' directly on the device"
+    },
+    {
+        "id": 52,
+        "time": "2023-04-24 09:50:26.649",
+        "level": "VERBOSE",
+        "message": "[ADB] Found 1 'build-tools' folders under '/opt/android-sdk' (newest first):"
+    },
+    {
+        "id": 53,
+        "time": "2023-04-24 09:50:26.650",
+        "level": "VERBOSE",
+        "message": "[ADB]     /opt/android-sdk/build-tools/33.0.1"
+    },
+    {
+        "id": 54,
+        "time": "2023-04-24 09:50:26.650",
+        "level": "VERBOSE",
+        "message": "[ADB] Using 'adb' from '/opt/android-sdk/platform-tools/adb'"
+    },
+    {
+        "id": 55,
+        "time": "2023-04-24 09:50:26.650",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 start-server'"
+    },
+    {
+        "id": 56,
+        "time": "2023-04-24 09:50:26.657",
+        "level": "VERBOSE",
+        "message": "[AndroidDriver] Retrieving device list"
+    },
+    {
+        "id": 57,
+        "time": "2023-04-24 09:50:26.657",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Trying to find a connected android device"
+    },
+    {
+        "id": 58,
+        "time": "2023-04-24 09:50:26.657",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting connected devices"
+    },
+    {
+        "id": 59,
+        "time": "2023-04-24 09:50:26.663",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Connected devices: [{\"udid\":\"10.102.32.18:16000\",\"state\":\"device\"}]"
+    },
+    {
+        "id": 60,
+        "time": "2023-04-24 09:50:26.663",
+        "level": "VERBOSE",
+        "message": "[AndroidDriver] Using device: 10.102.32.18:16000"
+    },
+    {
+        "id": 61,
+        "time": "2023-04-24 09:50:26.664",
+        "level": "VERBOSE",
+        "message": "[ADB] Using 'adb' from '/opt/android-sdk/platform-tools/adb'"
+    },
+    {
+        "id": 62,
+        "time": "2023-04-24 09:50:26.664",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 start-server'"
+    },
+    {
+        "id": 63,
+        "time": "2023-04-24 09:50:26.669",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Setting device id to 10.102.32.18:16000"
+    },
+    {
+        "id": 64,
+        "time": "2023-04-24 09:50:26.670",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell getprop ro.build.version.sdk'"
+    },
+    {
+        "id": 65,
+        "time": "2023-04-24 09:50:26.687",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Current device property 'ro.build.version.sdk': 33"
+    },
+    {
+        "id": 66,
+        "time": "2023-04-24 09:50:26.687",
+        "level": "VERBOSE",
+        "message": "[ADB] Getting device platform version"
+    },
+    {
+        "id": 67,
+        "time": "2023-04-24 09:50:26.687",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell getprop ro.build.version.release'"
+    },
+    {
+        "id": 68,
+        "time": "2023-04-24 09:50:26.707",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Current device property 'ro.build.version.release': 13"
+    },
+    {
+        "id": 69,
+        "time": "2023-04-24 09:50:26.707",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Device API level: 33"
+    },
+    {
+        "id": 70,
+        "time": "2023-04-24 09:50:26.707",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Relaxing hidden api policy"
+    },
+    {
+        "id": 71,
+        "time": "2023-04-24 09:50:26.708",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18\\:16000 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''"
+    },
+    {
+        "id": 72,
+        "time": "2023-04-24 09:50:26.766",
+        "level": "VERBOSE",
+        "message": "[AndroidDriver] No app sent in, not parsing package/activity"
+    },
+    {
+        "id": 73,
+        "time": "2023-04-24 09:50:26.767",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 wait-for-device'"
+    },
+    {
+        "id": 74,
+        "time": "2023-04-24 09:50:26.772",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell echo ping'"
+    },
+    {
+        "id": 75,
+        "time": "2023-04-24 09:50:26.786",
+        "level": "VERBOSE",
+        "message": "[debug] [AndroidDriver] Pushing settings apk to device..."
+    },
+    {
+        "id": 76,
+        "time": "2023-04-24 09:50:26.786",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting install status for io.appium.settings"
+    },
+    {
+        "id": 77,
+        "time": "2023-04-24 09:50:26.786",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell dumpsys package io.appium.settings'"
+    },
+    {
+        "id": 78,
+        "time": "2023-04-24 09:50:26.806",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] 'io.appium.settings' is not installed"
+    },
+    {
+        "id": 79,
+        "time": "2023-04-24 09:50:26.806",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] App '/root/appium/appium/1.22.2/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk' is not installed"
+    },
+    {
+        "id": 80,
+        "time": "2023-04-24 09:50:26.806",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Installing '/root/appium/appium/1.22.2/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'"
+    },
+    {
+        "id": 81,
+        "time": "2023-04-24 09:50:26.807",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 install -g /root/appium/appium/1.22.2/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'"
+    },
+    {
+        "id": 82,
+        "time": "2023-04-24 09:50:26.924",
+        "level": "VERBOSE",
+        "message": "[ADB] The installation of 'settings_apk-debug.apk' took 118ms"
+    },
+    {
+        "id": 83,
+        "time": "2023-04-24 09:50:26.925",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Install command stdout: Performing Streamed Install"
+    },
+    {
+        "id": 84,
+        "time": "2023-04-24 09:50:26.925",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Success"
+    },
+    {
+        "id": 85,
+        "time": "2023-04-24 09:50:26.925",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting IDs of all 'io.appium.settings' processes"
+    },
+    {
+        "id": 86,
+        "time": "2023-04-24 09:50:26.925",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18\\:16000 shell 'pgrep --help; echo $?''"
+    },
+    {
+        "id": 87,
+        "time": "2023-04-24 09:50:26.971",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+    },
+    {
+        "id": 88,
+        "time": "2023-04-24 09:50:27.054",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting IDs of all 'io.appium.settings' processes"
+    },
+    {
+        "id": 89,
+        "time": "2023-04-24 09:50:27.054",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+    },
+    {
+        "id": 90,
+        "time": "2023-04-24 09:50:27.096",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Starting Appium Settings app"
+    },
+    {
+        "id": 91,
+        "time": "2023-04-24 09:50:27.097",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'"
+    },
+    {
+        "id": 92,
+        "time": "2023-04-24 09:50:27.134",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting IDs of all 'io.appium.settings' processes"
+    },
+    {
+        "id": 93,
+        "time": "2023-04-24 09:50:27.134",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+    },
+    {
+        "id": 94,
+        "time": "2023-04-24 09:50:27.524",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting IDs of all 'io.appium.settings' processes"
+    },
+    {
+        "id": 95,
+        "time": "2023-04-24 09:50:27.524",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell pgrep -f \\(\\[\\[:blank:\\]\\]\\|\\^\\)io\\.appium\\.settings\\(\\[\\[:blank:\\]\\]\\|\\$\\)'"
+    },
+    {
+        "id": 96,
+        "time": "2023-04-24 09:50:27.578",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell appops set io.appium.settings android:mock_location allow'"
+    },
+    {
+        "id": 97,
+        "time": "2023-04-24 09:50:27.604",
+        "level": "VERBOSE",
+        "message": "[debug] [Logcat] Starting logs capture with command: /opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18\\:16000 logcat -v threadtime"
+    },
+    {
+        "id": 98,
+        "time": "2023-04-24 09:50:27.625",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8208"
+    },
+    {
+        "id": 99,
+        "time": "2023-04-24 09:50:27.628",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Forwarding system: 8208 to device: 6790"
+    },
+    {
+        "id": 100,
+        "time": "2023-04-24 09:50:27.628",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 forward tcp:8208 tcp:6790'"
+    },
+    {
+        "id": 101,
+        "time": "2023-04-24 09:50:27.636",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting install status for io.appium.uiautomator2.server"
+    },
+    {
+        "id": 102,
+        "time": "2023-04-24 09:50:27.636",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell dumpsys package io.appium.uiautomator2.server'"
+    },
+    {
+        "id": 103,
+        "time": "2023-04-24 09:50:27.678",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] 'io.appium.uiautomator2.server' is not installed"
+    },
+    {
+        "id": 104,
+        "time": "2023-04-24 09:50:27.678",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] App '/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is not installed"
+    },
+    {
+        "id": 105,
+        "time": "2023-04-24 09:50:27.678",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] io.appium.uiautomator2.server installation state: notInstalled"
+    },
+    {
+        "id": 106,
+        "time": "2023-04-24 09:50:27.678",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Checking app cert for /root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk"
+    },
+    {
+        "id": 107,
+        "time": "2023-04-24 09:50:27.704",
+        "level": "VERBOSE",
+        "message": "[ADB] Using 'apksigner.jar' from '/opt/android-sdk/build-tools/33.0.1/lib/apksigner.jar'"
+    },
+    {
+        "id": 108,
+        "time": "2023-04-24 09:50:27.706",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Starting apksigner: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xmx1024M -Xss1m -jar /opt/android-sdk/build-tools/33.0.1/lib/apksigner.jar verify --print-certs /root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk"
+    },
+    {
+        "id": 109,
+        "time": "2023-04-24 09:50:28.226",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US"
+    },
+    {
+        "id": 110,
+        "time": "2023-04-24 09:50:28.226",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+    },
+    {
+        "id": 111,
+        "time": "2023-04-24 09:50:28.226",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81"
+    },
+    {
+        "id": 112,
+        "time": "2023-04-24 09:50:28.226",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87"
+    },
+    {
+        "id": 113,
+        "time": "2023-04-24 09:50:28.226",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] "
+    },
+    {
+        "id": 114,
+        "time": "2023-04-24 09:50:28.226",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'"
+    },
+    {
+        "id": 115,
+        "time": "2023-04-24 09:50:28.227",
+        "level": "VERBOSE",
+        "message": "[ADB] '/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate"
+    },
+    {
+        "id": 116,
+        "time": "2023-04-24 09:50:28.227",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test"
+    },
+    {
+        "id": 117,
+        "time": "2023-04-24 09:50:28.227",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell dumpsys package io.appium.uiautomator2.server.test'"
+    },
+    {
+        "id": 118,
+        "time": "2023-04-24 09:50:28.245",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] 'io.appium.uiautomator2.server.test' is not installed"
+    },
+    {
+        "id": 119,
+        "time": "2023-04-24 09:50:28.245",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Checking app cert for /root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"
+    },
+    {
+        "id": 120,
+        "time": "2023-04-24 09:50:28.248",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Starting apksigner: /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xmx1024M -Xss1m -jar /opt/android-sdk/build-tools/33.0.1/lib/apksigner.jar verify --print-certs /root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"
+    },
+    {
+        "id": 121,
+        "time": "2023-04-24 09:50:28.480",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US"
+    },
+    {
+        "id": 122,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+    },
+    {
+        "id": 123,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81"
+    },
+    {
+        "id": 124,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87"
+    },
+    {
+        "id": 125,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] "
+    },
+    {
+        "id": 126,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'"
+    },
+    {
+        "id": 127,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[ADB] '/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate"
+    },
+    {
+        "id": 128,
+        "time": "2023-04-24 09:50:28.481",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Server packages are going to be (re)installed"
+    },
+    {
+        "id": 129,
+        "time": "2023-04-24 09:50:28.482",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 version'"
+    },
+    {
+        "id": 130,
+        "time": "2023-04-24 09:50:28.490",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 features'"
+    },
+    {
+        "id": 131,
+        "time": "2023-04-24 09:50:28.495",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 install -r --no-incremental /root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk'"
+    },
+    {
+        "id": 132,
+        "time": "2023-04-24 09:50:28.802",
+        "level": "VERBOSE",
+        "message": "[ADB] The installation of 'appium-uiautomator2-server-v4.27.0.apk' took 307ms"
+    },
+    {
+        "id": 133,
+        "time": "2023-04-24 09:50:28.802",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Install command stdout: Performing Streamed Install"
+    },
+    {
+        "id": 134,
+        "time": "2023-04-24 09:50:28.802",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Success"
+    },
+    {
+        "id": 135,
+        "time": "2023-04-24 09:50:28.803",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 install -r --no-incremental /root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'"
+    },
+    {
+        "id": 136,
+        "time": "2023-04-24 09:50:29.016",
+        "level": "VERBOSE",
+        "message": "[ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 213ms"
+    },
+    {
+        "id": 137,
+        "time": "2023-04-24 09:50:29.016",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Install command stdout: Performing Streamed Install"
+    },
+    {
+        "id": 138,
+        "time": "2023-04-24 09:50:29.016",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Success"
+    },
+    {
+        "id": 139,
+        "time": "2023-04-24 09:50:29.018",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] Waiting up to 30000ms for services to be available"
+    },
+    {
+        "id": 140,
+        "time": "2023-04-24 09:50:29.018",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell pm list instrumentation'"
+    },
+    {
+        "id": 141,
+        "time": "2023-04-24 09:50:29.055",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available"
+    },
+    {
+        "id": 142,
+        "time": "2023-04-24 09:50:29.056",
+        "level": "VERBOSE",
+        "message": "[ADB] Adding packages [\"io.appium.settings\",\"io.appium.uiautomator2.server\",\"io.appium.uiautomator2.server.test\"] to Doze whitelist"
+    },
+    {
+        "id": 143,
+        "time": "2023-04-24 09:50:29.057",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Got the following command chunks to execute: [[\"dumpsys\",\"deviceidle\",\"whitelist\",\"+io.appium.settings\",\";\",\"dumpsys\",\"deviceidle\",\"whitelist\",\"+io.appium.uiautomator2.server\",\";\",\"dumpsys\",\"deviceidle\",\"whitelist\",\"+io.appium.uiautomator2.server.test\",\";\"]]"
+    },
+    {
+        "id": 144,
+        "time": "2023-04-24 09:50:29.057",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'"
+    },
+    {
+        "id": 145,
+        "time": "2023-04-24 09:50:29.191",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] No app capability. Assuming it is already on the device"
+    },
+    {
+        "id": 146,
+        "time": "2023-04-24 09:50:29.192",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Getting install status for com.avon.avonon.uat"
+    },
+    {
+        "id": 147,
+        "time": "2023-04-24 09:50:29.192",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell dumpsys package com.avon.avonon.uat'"
+    },
+    {
+        "id": 148,
+        "time": "2023-04-24 09:50:29.266",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] 'com.avon.avonon.uat' is installed"
+    },
+    {
+        "id": 149,
+        "time": "2023-04-24 09:50:29.266",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell am force-stop com.avon.avonon.uat'"
+    },
+    {
+        "id": 150,
+        "time": "2023-04-24 09:50:29.335",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell pm clear com.avon.avonon.uat'"
+    },
+    {
+        "id": 151,
+        "time": "2023-04-24 09:50:29.580",
+        "level": "VERBOSE",
+        "message": "[debug] [AndroidDriver] Performed fast reset on the installed 'com.avon.avonon.uat' application (stop and clear)"
+    },
+    {
+        "id": 152,
+        "time": "2023-04-24 09:50:29.581",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] Performing shallow cleanup of automation leftovers"
+    },
+    {
+        "id": 153,
+        "time": "2023-04-24 09:50:29.587",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] No obsolete sessions have been detected (socket hang up)"
+    },
+    {
+        "id": 154,
+        "time": "2023-04-24 09:50:29.587",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell am force-stop io.appium.uiautomator2.server.test'"
+    },
+    {
+        "id": 155,
+        "time": "2023-04-24 09:50:29.632",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Starting UIAutomator2 server 4.27.0"
+    },
+    {
+        "id": 156,
+        "time": "2023-04-24 09:50:29.632",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Using UIAutomator2 server from '/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'"
+    },
+    {
+        "id": 157,
+        "time": "2023-04-24 09:50:29.632",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online..."
+    },
+    {
+        "id": 158,
+        "time": "2023-04-24 09:50:29.633",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Creating ADB subprocess with args: [\"-P\",15008,\"-s\",\"10.102.32.18:16000\",\"shell\",\"am\",\"instrument\",\"-w\",\"-e\",\"disableAnalytics\",true,\"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner\"]"
+    },
+    {
+        "id": 159,
+        "time": "2023-04-24 09:50:29.639",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/status' to command name 'getStatus'"
+    },
+    {
+        "id": 160,
+        "time": "2023-04-24 09:50:29.640",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8208/wd/hub/status] with no body"
+    },
+    {
+        "id": 161,
+        "time": "2023-04-24 09:50:29.646",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] socket hang up"
+    },
+    {
+        "id": 162,
+        "time": "2023-04-24 09:50:30.295",
+        "level": "VERBOSE",
+        "message": "[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:"
+    },
+    {
+        "id": 163,
+        "time": "2023-04-24 09:50:30.647",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/status' to command name 'getStatus'"
+    },
+    {
+        "id": 164,
+        "time": "2023-04-24 09:50:30.647",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8208/wd/hub/status] with no body"
+    },
+    {
+        "id": 165,
+        "time": "2023-04-24 09:50:30.656",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] socket hang up"
+    },
+    {
+        "id": 166,
+        "time": "2023-04-24 09:50:31.657",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/status' to command name 'getStatus'"
+    },
+    {
+        "id": 167,
+        "time": "2023-04-24 09:50:31.657",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8208/wd/hub/status] with no body"
+    },
+    {
+        "id": 168,
+        "time": "2023-04-24 09:50:31.686",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"None\",\"value\":{\"message\":\"UiAutomator2 Server is ready to accept commands\",\"ready\":true}}"
+    },
+    {
+        "id": 169,
+        "time": "2023-04-24 09:50:31.686",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] The initialization of the instrumentation process took 2054ms"
+    },
+    {
+        "id": 170,
+        "time": "2023-04-24 09:50:31.686",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/session' to command name 'createSession'"
+    },
+    {
+        "id": 171,
+        "time": "2023-04-24 09:50:31.687",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8208/wd/hub/session] with body: {\"capabilities\":{\"firstMatch\":[{\"platform\":\"LINUX\",\"webStorageEnabled\":false,\"takesScreenshot\":true,\"javascriptEnabled\":true,\"databaseEnabled\":false,\"networkConnectionEnabled\":true,\"locationContextEnabled\":false,\"warnings\":{},\"desired\":{\"platformName\":\"Android\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"suppressKillServer\":true,\"chromedriverPorts\":[[26080,26090]],\"chromedriverChromeMappingFile\":\"/root/.testobject_devices/work/chromedriver-mapping.json\",\"adbPort\":15008,\"uiautomator2ServerInstallTimeout\":60000,\"chromedriverExecutableDir\":\"/root/.testobject_devices/work/chromedrivers\",\"remoteAppsCacheLimit\":0,\"systemPort\":8208,\"deviceOrientation\":\"portrait\",\"appActivity\":\"com.avon.avonon.presentation.screens.splash.SplashActivity\",\"deviceName\":\"Google_Pixel_7_real\",\"automationName\":\"UiAutomator2\",\"appPackage\":\"com.avon.avonon.uat\"},\"platformName\":\"Android\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"suppressKillServer\":true,\"chromedriverPorts\":[[26080,26090]],\"chromedriverChromeMappin..."
+    },
+    {
+        "id": 172,
+        "time": "2023-04-24 09:50:31.698",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"capabilities\":{\"firstMatch\":[{\"platform\":\"LINUX\",\"webStorageEnabled\":false,\"takesScreenshot\":true,\"javascriptEnabled\":true,\"databaseEnabled\":false,\"networkConnectionEnabled\":true,\"locationContextEnabled\":false,\"warnings\":{},\"desired\":{\"platformName\":\"Android\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"suppressKillServer\":true,\"chromedriverPorts\":[[26080,26090]],\"chromedriverChromeMappingFile\":\"/root/.testobject_devices/work/chromedriver-mapping.json\",\"adbPort\":15008,\"uiautomator2ServerInstallTimeout\":60000,\"chromedriverExecutableDir\":\"/root/.testobject_devices/work/chromedrivers\",\"remoteAppsCacheLimit\":0,\"systemPort\":8208,\"deviceOrientation\":\"portrait\",\"appActivity\":\"com.avon.avonon.presentation.screens.splash.SplashActivity\",\"deviceName\":\"Google_Pixel_7_real\",\"automationName\":\"UiAutomator2\",\"appPackage\":\"com.avon.avonon.uat\"},\"platformName\":\"Android\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"suppressKillServer\":true,\"..."
+    },
+    {
+        "id": 173,
+        "time": "2023-04-24 09:50:31.699",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Determined the downstream protocol as 'W3C'"
+    },
+    {
+        "id": 174,
+        "time": "2023-04-24 09:50:31.707",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/appium/device/info] with no body"
+    },
+    {
+        "id": 175,
+        "time": "2023-04-24 09:50:31.731",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"androidId\":\"84c71ace060df830\",\"apiVersion\":\"33\",\"bluetooth\":{\"state\":\"ON\"},\"brand\":\"google\",\"carrierName\":\"\",\"displayDensity\":420,\"locale\":\"en_GB\",\"manufacturer\":\"Google\",\"model\":\"Pixel 7\",\"networks\":[{\"capabilities\":{\"SSID\":null,\"linkDownBandwidthKbps\":45141,\"linkUpstreamBandwidthKbps\":12000,\"networkCapabilities\":\"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED\",\"signalStrength\":-61,\"transportTypes\":\"TRANSPORT_WIFI\"},\"detailedState\":\"CONNECTED\",\"extraInfo\":\"\",\"isAvailable\":true,\"isConnected\":true,\"isFailover\":false,\"isRoaming\":false,\"state\":\"CONNECTED\",\"subtype\":-1,\"subtypeName\":\"\",\"type\":1,\"typeName\":\"WIFI\"}],\"platformVersion\":\"13\",\"realDisplaySize\":\"1080x2400\",\"timeZone\":\"Europe/Berlin\"}}"
+    },
+    {
+        "id": 176,
+        "time": "2023-04-24 09:50:31.732",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell dumpsys window'"
+    },
+    {
+        "id": 177,
+        "time": "2023-04-24 09:50:31.801",
+        "level": "VERBOSE",
+        "message": "[AndroidDriver] Screen already unlocked, doing nothing"
+    },
+    {
+        "id": 178,
+        "time": "2023-04-24 09:50:31.801",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Starting 'com.avon.avonon.uat/com.avon.avonon.presentation.screens.splash.SplashActivity and waiting for 'com.avon.avonon.uat/com.avon.avonon.presentation.screens.splash.SplashActivity'"
+    },
+    {
+        "id": 179,
+        "time": "2023-04-24 09:50:31.801",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell am start -W -n com.avon.avonon.uat/com.avon.avonon.presentation.screens.splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'"
+    },
+    {
+        "id": 180,
+        "time": "2023-04-24 09:50:32.896",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/appium/device/pixel_ratio] with no body"
+    },
+    {
+        "id": 181,
+        "time": "2023-04-24 09:50:32.905",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":2.625}"
+    },
+    {
+        "id": 182,
+        "time": "2023-04-24 09:50:32.906",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'"
+    },
+    {
+        "id": 183,
+        "time": "2023-04-24 09:50:32.906",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/appium/device/system_bars] with no body"
+    },
+    {
+        "id": 184,
+        "time": "2023-04-24 09:50:32.918",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"statusBar\":118}}"
+    },
+    {
+        "id": 185,
+        "time": "2023-04-24 09:50:32.918",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'"
+    },
+    {
+        "id": 186,
+        "time": "2023-04-24 09:50:32.918",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/window/current/size] with no body"
+    },
+    {
+        "id": 187,
+        "time": "2023-04-24 09:50:32.929",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"height\":2219,\"width\":1080}}"
+    },
+    {
+        "id": 188,
+        "time": "2023-04-24 09:50:32.929",
+        "level": "VERBOSE",
+        "message": "[Appium] New AndroidUiautomator2Driver session created successfully, session 0145fbb2-eb06-41b3-8af9-938c066276fe added to master session list"
+    },
+    {
+        "id": 189,
+        "time": "2023-04-24 09:50:32.930",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Event 'newSessionStarted' logged at 1682329832929 (09:50:32 GMT+0000 (Coordinated Universal Time))"
+    },
+    {
+        "id": 190,
+        "time": "2023-04-24 09:50:32.930",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Cached the protocol value 'W3C' for the new session 0145fbb2-eb06-41b3-8af9-938c066276fe"
+    },
+    {
+        "id": 191,
+        "time": "2023-04-24 09:50:32.930",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.createSession() result: {\"capabilities\":{\"platform\":\"LINUX\",\"webStorageEnabled\":false,\"takesScreenshot\":true,\"javascriptEnabled\":true,\"databaseEnabled\":false,\"networkConnectionEnabled\":true,\"locationContextEnabled\":false,\"warnings\":{},\"desired\":{\"platformName\":\"Android\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"suppressKillServer\":true,\"chromedriverPorts\":[[26080,26090]],\"chromedriverChromeMappingFile\":\"/root/.testobject_devices/work/chromedriver-mapping.json\",\"adbPort\":15008,\"uiautomator2ServerInstallTimeout\":60000,\"chromedriverExecutableDir\":\"/root/.testobject_devices/work/chromedrivers\",\"remoteAppsCacheLimit\":0,\"systemPort\":8208,\"deviceOrientation\":\"portrait\",\"appActivity\":\"com.avon.avonon.presentation.screens.splash.SplashActivity\",\"deviceName\":\"Google_Pixel_7_real\",\"automationName\":\"UiAutomator2\",\"appPackage\":\"com.avon.avonon.uat\"},\"platformName\":\"Android\",\"sauce:options\":{\"name\":\"Android Google Pixel 7a Run\"},\"suppressKillServer\":true,\"chromedriverPorts\":[[26080,26090]],\"chromedriverChromeMappingFile\":\"/root/...."
+    },
+    {
+        "id": 192,
+        "time": "2023-04-24 09:50:32.932",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session 200 6408 ms - 1806"
+    },
+    {
+        "id": 193,
+        "time": "2023-04-24 09:50:32.933",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 194,
+        "time": "2023-04-24 09:50:33.624",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/timeouts"
+    },
+    {
+        "id": 195,
+        "time": "2023-04-24 09:50:33.624",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"implicit\":10000}"
+    },
+    {
+        "id": 196,
+        "time": "2023-04-24 09:50:33.625",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 197,
+        "time": "2023-04-24 09:50:33.626",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] W3C timeout argument: {\"implicit\":10000}}"
+    },
+    {
+        "id": 198,
+        "time": "2023-04-24 09:50:33.626",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Set implicit wait to 10000ms"
+    },
+    {
+        "id": 199,
+        "time": "2023-04-24 09:50:33.626",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.timeouts() result: null"
+    },
+    {
+        "id": 200,
+        "time": "2023-04-24 09:50:33.627",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/timeouts 200 3 ms - 14"
+    },
+    {
+        "id": 201,
+        "time": "2023-04-24 09:50:33.627",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 202,
+        "time": "2023-04-24 09:50:34.270",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/screenshot"
+    },
+    {
+        "id": 203,
+        "time": "2023-04-24 09:50:34.270",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 204,
+        "time": "2023-04-24 09:50:34.271",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.getScreenshot() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 205,
+        "time": "2023-04-24 09:50:34.271",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'"
+    },
+    {
+        "id": 206,
+        "time": "2023-04-24 09:50:34.272",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/screenshot] with no body"
+    },
+    {
+        "id": 207,
+        "time": "2023-04-24 09:50:34.543",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAABJGlDQ1BTa2lhAAAokX2Rv0vDQBiG\\nH0sXpQ6ig4NDxi5KVeiiLlUIOkms0OqUpmkV2houKdXZ1T+im7OjCJ27CILgJP4N4uAa37RDAqW+\\nx3f33Mt3P747yK0j5UvQ7UXGsStWrX5hkZHrhQHztQC/H0kP75v/5M3TYtMPPY3fisjocG3ZFK+1\\np3ybcGPKDwmbqnMoHoqL7Qw3MjyIgkg8TvK9wCT8Kd7vdvpeem8Kfu/8TGNNsUGIg00FiyoGl56c\\nFr7YYsA1EVeiI1FIQEcZd5qfsqve1qxLXzkzSt/z/gsORnEcv6TeyQieyrD0nHrFPVgpwPg1cI07\\nsfKKXKsFP4+wXIfVN625nD0j/Ys5tVqTWm1u1NqqwpdzrFo9tkQ7lNim/AfUy02wCLYnZAAAAARz\\nQklUCAgICHwIZIgAACAASURBVHic7N17bN31ffjht6+JnXvihODEuUBwwt0tUFrSQGhKCSwpUK3q\\nVg0ahmjF1E1dq25SRVVVQvtjHVu3butKu7W06qRl6qCCNlAalVvc0lCWEkgcJ0Bih+A4cW6O7cS3\\n8/sjyvlxYuM49vHlkz2PFKnn5HwvJw6U8zqfS0Emk8kEAAAAQMIKx/oGAAAAAIZL4AAAAACSJ3AA\\nAAAAyRM4AAAAgOQJHAAAAEDyBA4AAAAgeQIHAAAAkDyBAwAAAEiewAEAAAAkT+AAAAAAkidwAAAA\\nAMkTOAAAAIDkCRwAAABA8gQOAAAAIHkCBwAAAJA8gQMAAABInsABAAAAJE/gAAAAAJIncAAAAADJ\\nEzgAAACA5AkcAAAAQPIEDgAAACB5AgcAAACQPIEDAAAASJ7AAQAAACRP4AAAAACSJ3AAAAAAyRM4\\nAAAAgOQJHAAAAEDyBA4AAAAg..."
+    },
+    {
+        "id": 208,
+        "time": "2023-04-24 09:50:34.544",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.getScreenshot() result: \"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAABJGlDQ1BTa2lhAAAokX2Rv0vDQBiG\\nH0sXpQ6ig4NDxi5KVeiiLlUIOkms0OqUpmkV2houKdXZ1T+im7OjCJ27CILgJP4N4uAa37RDAqW+\\nx3f33Mt3P747yK0j5UvQ7UXGsStWrX5hkZHrhQHztQC/H0kP75v/5M3TYtMPPY3fisjocG3ZFK+1\\np3ybcGPKDwmbqnMoHoqL7Qw3MjyIgkg8TvK9wCT8Kd7vdvpeem8Kfu/8TGNNsUGIg00FiyoGl56c\\nFr7YYsA1EVeiI1FIQEcZd5qfsqve1qxLXzkzSt/z/gsORnEcv6TeyQieyrD0nHrFPVgpwPg1cI07\\nsfKKXKsFP4+wXIfVN625nD0j/Ys5tVqTWm1u1NqqwpdzrFo9tkQ7lNim/AfUy02wCLYnZAAAAARz\\nQklUCAgICHwIZIgAACAASURBVHic7N17bN31ffjht6+JnXvihODEuUBwwt0tUFrSQGhKCSwpUK3q\\nVg0ahmjF1E1dq25SRVVVQvtjHVu3butKu7W06qRl6qCCNlAalVvc0lCWEkgcJ0Bih+A4cW6O7cS3\\n8/sjyvlxYuM49vHlkz2PFKnn5HwvJw6U8zqfS0Emk8kEAAAAQMIKx/oGAAAAAIZL4AAAAACSJ3AA\\nAAAAyRM4AAAAgOQJHAAAAEDyBA4AAAAgeQIHAAAAkDyBAwAAAEiewAEAAAAkT+AAAAAAkidwAAAA\\nAMkTOAAAAIDkCRwAAABA8gQOAAAAIHkCBwAAAJA8gQMAAABInsABAAAAJE/gAAAAAJIncAAAAADJ\\nEzgAAACA5AkcAAAAQPIEDgAAACB5AgcAAACQPIEDAAAASJ7AAQAAACRP4AAAAACSJ3AAAAAAyRM4\\nAAAAgOQJHAAAAEDyBA4AAAAgeQIHAAAAkDyBAwAAAEiewAEAAAAkT+AAAAAAkidwAAAAAMkTOAAA\\nAIDkCR..."
+    },
+    {
+        "id": 209,
+        "time": "2023-04-24 09:50:34.545",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/screenshot 200 275 ms - 102124"
+    },
+    {
+        "id": 210,
+        "time": "2023-04-24 09:50:34.545",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 211,
+        "time": "2023-04-24 09:50:35.314",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/context"
+    },
+    {
+        "id": 212,
+        "time": "2023-04-24 09:50:35.314",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 213,
+        "time": "2023-04-24 09:50:35.317",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.getCurrentContext() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 214,
+        "time": "2023-04-24 09:50:35.317",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.getCurrentContext() result: \"NATIVE_APP\""
+    },
+    {
+        "id": 215,
+        "time": "2023-04-24 09:50:35.318",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/context 200 4 ms - 22"
+    },
+    {
+        "id": 216,
+        "time": "2023-04-24 09:50:35.318",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 217,
+        "time": "2023-04-24 09:50:35.644",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element"
+    },
+    {
+        "id": 218,
+        "time": "2023-04-24 09:50:35.644",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"using\":\"id\",\"value\":\"marketSelectMarketButton\"}"
+    },
+    {
+        "id": 219,
+        "time": "2023-04-24 09:50:35.645",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.findElement() with args: [\"id\",\"marketSelectMarketButton\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 220,
+        "time": "2023-04-24 09:50:35.646",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator"
+    },
+    {
+        "id": 221,
+        "time": "2023-04-24 09:50:35.646",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waiting up to 10000 ms for condition"
+    },
+    {
+        "id": 222,
+        "time": "2023-04-24 09:50:35.646",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 223,
+        "time": "2023-04-24 09:50:35.647",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"marketSelectMarketButton\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 224,
+        "time": "2023-04-24 09:50:35.801",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"ELEMENT\":\"00000000-0000-00b1-ffff-ffff00000018\",\"element-6066-11e4-a52e-4f735466cecf\":\"00000000-0000-00b1-ffff-ffff00000018\"}}"
+    },
+    {
+        "id": 225,
+        "time": "2023-04-24 09:50:35.801",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.findElement() result: {\"element-6066-11e4-a52e-4f735466cecf\":\"00000000-0000-00b1-ffff-ffff00000018\",\"ELEMENT\":\"00000000-0000-00b1-ffff-ffff00000018\"}"
+    },
+    {
+        "id": 226,
+        "time": "2023-04-24 09:50:35.802",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element 200 158 ms - 137"
+    },
+    {
+        "id": 227,
+        "time": "2023-04-24 09:50:35.802",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 228,
+        "time": "2023-04-24 09:50:36.005",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element/00000000-0000-00b1-ffff-ffff00000018/click"
+    },
+    {
+        "id": 229,
+        "time": "2023-04-24 09:50:36.005",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"id\":\"00000000-0000-00b1-ffff-ffff00000018\"}"
+    },
+    {
+        "id": 230,
+        "time": "2023-04-24 09:50:36.006",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.click() with args: [\"00000000-0000-00b1-ffff-ffff00000018\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 231,
+        "time": "2023-04-24 09:50:36.006",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element/00000000-0000-00b1-ffff-ffff00000018/click' to command name 'click'"
+    },
+    {
+        "id": 232,
+        "time": "2023-04-24 09:50:36.007",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element/00000000-0000-00b1-ffff-ffff00000018/click] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element/00000000-0000-00b1-ffff-ffff00000018/click] with body: {\"element\":\"00000000-0000-00b1-ffff-ffff00000018\"}"
+    },
+    {
+        "id": 233,
+        "time": "2023-04-24 09:50:36.484",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":null}"
+    },
+    {
+        "id": 234,
+        "time": "2023-04-24 09:50:36.484",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.click() result: null"
+    },
+    {
+        "id": 235,
+        "time": "2023-04-24 09:50:36.485",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element/00000000-0000-00b1-ffff-ffff00000018/click 200 479 ms - 14"
+    },
+    {
+        "id": 236,
+        "time": "2023-04-24 09:50:36.485",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 237,
+        "time": "2023-04-24 09:50:36.714",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element"
+    },
+    {
+        "id": 238,
+        "time": "2023-04-24 09:50:36.714",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"using\":\"-android uiautomator\",\"value\":\"new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\\\"United Kingdom\\\"))\"}"
+    },
+    {
+        "id": 239,
+        "time": "2023-04-24 09:50:36.715",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.findElement() with args: [\"-android uiautomator\",\"new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\\\"United Kingdom\\\"))\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 240,
+        "time": "2023-04-24 09:50:36.715",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator"
+    },
+    {
+        "id": 241,
+        "time": "2023-04-24 09:50:36.715",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waiting up to 10000 ms for condition"
+    },
+    {
+        "id": 242,
+        "time": "2023-04-24 09:50:36.715",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 243,
+        "time": "2023-04-24 09:50:36.715",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"-android uiautomator\",\"selector\":\"new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\\\"United Kingdom\\\"))\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 244,
+        "time": "2023-04-24 09:50:41.774",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"ELEMENT\":\"00000000-0000-00b2-ffff-ffff00000056\",\"element-6066-11e4-a52e-4f735466cecf\":\"00000000-0000-00b2-ffff-ffff00000056\"}}"
+    },
+    {
+        "id": 245,
+        "time": "2023-04-24 09:50:41.774",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.findElement() result: {\"element-6066-11e4-a52e-4f735466cecf\":\"00000000-0000-00b2-ffff-ffff00000056\",\"ELEMENT\":\"00000000-0000-00b2-ffff-ffff00000056\"}"
+    },
+    {
+        "id": 246,
+        "time": "2023-04-24 09:50:41.774",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element 200 5060 ms - 137"
+    },
+    {
+        "id": 247,
+        "time": "2023-04-24 09:50:41.774",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 248,
+        "time": "2023-04-24 09:50:42.454",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element/00000000-0000-00b2-ffff-ffff00000056/click"
+    },
+    {
+        "id": 249,
+        "time": "2023-04-24 09:50:42.454",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"id\":\"00000000-0000-00b2-ffff-ffff00000056\"}"
+    },
+    {
+        "id": 250,
+        "time": "2023-04-24 09:50:42.454",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.click() with args: [\"00000000-0000-00b2-ffff-ffff00000056\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 251,
+        "time": "2023-04-24 09:50:42.454",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element/00000000-0000-00b2-ffff-ffff00000056/click' to command name 'click'"
+    },
+    {
+        "id": 252,
+        "time": "2023-04-24 09:50:42.454",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element/00000000-0000-00b2-ffff-ffff00000056/click] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element/00000000-0000-00b2-ffff-ffff00000056/click] with body: {\"element\":\"00000000-0000-00b2-ffff-ffff00000056\"}"
+    },
+    {
+        "id": 253,
+        "time": "2023-04-24 09:50:43.098",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":null}"
+    },
+    {
+        "id": 254,
+        "time": "2023-04-24 09:50:43.098",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.click() result: null"
+    },
+    {
+        "id": 255,
+        "time": "2023-04-24 09:50:43.099",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element/00000000-0000-00b2-ffff-ffff00000056/click 200 645 ms - 14"
+    },
+    {
+        "id": 256,
+        "time": "2023-04-24 09:50:43.099",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 257,
+        "time": "2023-04-24 09:50:43.319",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/context"
+    },
+    {
+        "id": 258,
+        "time": "2023-04-24 09:50:43.320",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 259,
+        "time": "2023-04-24 09:50:43.321",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.getCurrentContext() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 260,
+        "time": "2023-04-24 09:50:43.321",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.getCurrentContext() result: \"NATIVE_APP\""
+    },
+    {
+        "id": 261,
+        "time": "2023-04-24 09:50:43.322",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/context 200 2 ms - 22"
+    },
+    {
+        "id": 262,
+        "time": "2023-04-24 09:50:43.322",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 263,
+        "time": "2023-04-24 09:50:43.598",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element"
+    },
+    {
+        "id": 264,
+        "time": "2023-04-24 09:50:43.598",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"using\":\"id\",\"value\":\"avonButton\"}"
+    },
+    {
+        "id": 265,
+        "time": "2023-04-24 09:50:43.599",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.findElement() with args: [\"id\",\"avonButton\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 266,
+        "time": "2023-04-24 09:50:43.599",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator"
+    },
+    {
+        "id": 267,
+        "time": "2023-04-24 09:50:43.599",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waiting up to 10000 ms for condition"
+    },
+    {
+        "id": 268,
+        "time": "2023-04-24 09:50:43.599",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 269,
+        "time": "2023-04-24 09:50:43.599",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"avonButton\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 270,
+        "time": "2023-04-24 09:50:43.654",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"ELEMENT\":\"00000000-0000-00b1-ffff-ffff0000002e\",\"element-6066-11e4-a52e-4f735466cecf\":\"00000000-0000-00b1-ffff-ffff0000002e\"}}"
+    },
+    {
+        "id": 271,
+        "time": "2023-04-24 09:50:43.655",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.findElement() result: {\"element-6066-11e4-a52e-4f735466cecf\":\"00000000-0000-00b1-ffff-ffff0000002e\",\"ELEMENT\":\"00000000-0000-00b1-ffff-ffff0000002e\"}"
+    },
+    {
+        "id": 272,
+        "time": "2023-04-24 09:50:43.655",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element 200 57 ms - 137"
+    },
+    {
+        "id": 273,
+        "time": "2023-04-24 09:50:43.655",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 274,
+        "time": "2023-04-24 09:50:43.851",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element/00000000-0000-00b1-ffff-ffff0000002e/click"
+    },
+    {
+        "id": 275,
+        "time": "2023-04-24 09:50:43.851",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"id\":\"00000000-0000-00b1-ffff-ffff0000002e\"}"
+    },
+    {
+        "id": 276,
+        "time": "2023-04-24 09:50:43.852",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.click() with args: [\"00000000-0000-00b1-ffff-ffff0000002e\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 277,
+        "time": "2023-04-24 09:50:43.852",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element/00000000-0000-00b1-ffff-ffff0000002e/click' to command name 'click'"
+    },
+    {
+        "id": 278,
+        "time": "2023-04-24 09:50:43.852",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element/00000000-0000-00b1-ffff-ffff0000002e/click] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element/00000000-0000-00b1-ffff-ffff0000002e/click] with body: {\"element\":\"00000000-0000-00b1-ffff-ffff0000002e\"}"
+    },
+    {
+        "id": 279,
+        "time": "2023-04-24 09:50:43.884",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":null}"
+    },
+    {
+        "id": 280,
+        "time": "2023-04-24 09:50:43.885",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.click() result: null"
+    },
+    {
+        "id": 281,
+        "time": "2023-04-24 09:50:43.885",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element/00000000-0000-00b1-ffff-ffff0000002e/click 200 34 ms - 14"
+    },
+    {
+        "id": 282,
+        "time": "2023-04-24 09:50:43.885",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 283,
+        "time": "2023-04-24 09:50:44.080",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/screenshot"
+    },
+    {
+        "id": 284,
+        "time": "2023-04-24 09:50:44.080",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 285,
+        "time": "2023-04-24 09:50:44.081",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.getScreenshot() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 286,
+        "time": "2023-04-24 09:50:44.081",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'"
+    },
+    {
+        "id": 287,
+        "time": "2023-04-24 09:50:44.081",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/screenshot] with no body"
+    },
+    {
+        "id": 288,
+        "time": "2023-04-24 09:50:44.320",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAABJGlDQ1BTa2lhAAAokX2Rv0vDQBiG\\nH0sXpQ6ig4NDxi5KVeiiLlUIOkms0OqUpmkV2houKdXZ1T+im7OjCJ27CILgJP4N4uAa37RDAqW+\\nx3f33Mt3P747yK0j5UvQ7UXGsStWrX5hkZHrhQHztQC/H0kP75v/5M3TYtMPPY3fisjocG3ZFK+1\\np3ybcGPKDwmbqnMoHoqL7Qw3MjyIgkg8TvK9wCT8Kd7vdvpeem8Kfu/8TGNNsUGIg00FiyoGl56c\\nFr7YYsA1EVeiI1FIQEcZd5qfsqve1qxLXzkzSt/z/gsORnEcv6TeyQieyrD0nHrFPVgpwPg1cI07\\nsfKKXKsFP4+wXIfVN625nD0j/Ys5tVqTWm1u1NqqwpdzrFo9tkQ7lNim/AfUy02wCLYnZAAAAARz\\nQklUCAgICHwIZIgAACAASURBVHic7N17dNT1ncf/1+ebC0m4X0UgiILBC2q8VyyCpa5AoWq7tltP\\ntbYe2mO39VQ9bfdsbbttPe1uha1r13arrlvrrz2/0rranxdUSsUbXkAXBSEEEEgCJIEQIPdM5vv5\\n/TGZyfc7M5lMJjNJvvh8eJDMzPc2kwnwec378/4Ya60VAAAAAABAgDlDfQEAAAAAAAADRcABAAAA\\nAAACj4ADAAAAAAAEHgEHAAAAAAAIPAIOAAAAAAAQeAQcAAAAAAAg8Ag4AAAAAABA4BFwAAAAAACA\\nwCPgAAAAAAAAgUfAAQAAAAAAAo+AAwAAAAAABB4BBwAAAAAACDwCDgAAAAAAEHgEHAAAAAAAIPAI\\nOAAAAAAAQOARcAAAAAAAgMAj4AAAAAAAAIFHwAEAAAAAAAKPgAMAAAAAAAQeAQcAAAAAAAg8Ag4A\\nAAAAABB4BBwAAAAAACDwCDgA..."
+    },
+    {
+        "id": 289,
+        "time": "2023-04-24 09:50:44.321",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.getScreenshot() result: \"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAABJGlDQ1BTa2lhAAAokX2Rv0vDQBiG\\nH0sXpQ6ig4NDxi5KVeiiLlUIOkms0OqUpmkV2houKdXZ1T+im7OjCJ27CILgJP4N4uAa37RDAqW+\\nx3f33Mt3P747yK0j5UvQ7UXGsStWrX5hkZHrhQHztQC/H0kP75v/5M3TYtMPPY3fisjocG3ZFK+1\\np3ybcGPKDwmbqnMoHoqL7Qw3MjyIgkg8TvK9wCT8Kd7vdvpeem8Kfu/8TGNNsUGIg00FiyoGl56c\\nFr7YYsA1EVeiI1FIQEcZd5qfsqve1qxLXzkzSt/z/gsORnEcv6TeyQieyrD0nHrFPVgpwPg1cI07\\nsfKKXKsFP4+wXIfVN625nD0j/Ys5tVqTWm1u1NqqwpdzrFo9tkQ7lNim/AfUy02wCLYnZAAAAARz\\nQklUCAgICHwIZIgAACAASURBVHic7N17dNT1ncf/1+ebC0m4X0UgiILBC2q8VyyCpa5AoWq7tltP\\ntbYe2mO39VQ9bfdsbbttPe1uha1r13arrlvrrz2/0rranxdUSsUbXkAXBSEEEEgCJIEQIPdM5vv5\\n/TGZyfc7M5lMJjNJvvh8eJDMzPc2kwnwec378/4Ya60VAAAAAABAgDlDfQEAAAAAAAADRcABAAAA\\nAAACj4ADAAAAAAAEHgEHAAAAAAAIPAIOAAAAAAAQeAQcAAAAAAAg8Ag4AAAAAABA4BFwAAAAAACA\\nwCPgAAAAAAAAgUfAAQAAAAAAAo+AAwAAAAAABB4BBwAAAAAACDwCDgAAAAAAEHgEHAAAAAAAIPAI\\nOAAAAAAAQOARcAAAAAAAgMAj4AAAAAAAAIFHwAEAAAAAAAKPgAMAAAAAAAQeAQcAAAAAAAg8Ag4A\\nAAAAABB4BBwAAAAAACDwCDgAAAAAAEDgEXAAAAAAAIDAI+AAAAAAAACBR8ABAAAAAAACj4ADAAAA\\nAAAEHg..."
+    },
+    {
+        "id": 290,
+        "time": "2023-04-24 09:50:44.322",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/screenshot 200 242 ms - 168736"
+    },
+    {
+        "id": 291,
+        "time": "2023-04-24 09:50:44.322",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 292,
+        "time": "2023-04-24 09:50:45.215",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/context"
+    },
+    {
+        "id": 293,
+        "time": "2023-04-24 09:50:45.215",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 294,
+        "time": "2023-04-24 09:50:45.215",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.getCurrentContext() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 295,
+        "time": "2023-04-24 09:50:45.215",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.getCurrentContext() result: \"NATIVE_APP\""
+    },
+    {
+        "id": 296,
+        "time": "2023-04-24 09:50:45.216",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/context 200 1 ms - 22"
+    },
+    {
+        "id": 297,
+        "time": "2023-04-24 09:50:45.216",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 298,
+        "time": "2023-04-24 09:50:45.408",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element"
+    },
+    {
+        "id": 299,
+        "time": "2023-04-24 09:50:45.408",
+        "level": "VERBOSE",
+        "message": "[HTTP] {\"using\":\"id\",\"value\":\"com.avon.avonon:id/loginAccountTextField\"}"
+    },
+    {
+        "id": 300,
+        "time": "2023-04-24 09:50:45.409",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.findElement() with args: [\"id\",\"com.avon.avonon:id/loginAccountTextField\",\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 301,
+        "time": "2023-04-24 09:50:45.409",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator"
+    },
+    {
+        "id": 302,
+        "time": "2023-04-24 09:50:45.409",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waiting up to 10000 ms for condition"
+    },
+    {
+        "id": 303,
+        "time": "2023-04-24 09:50:45.409",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 304,
+        "time": "2023-04-24 09:50:45.409",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 305,
+        "time": "2023-04-24 09:50:45.562",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 306,
+        "time": "2023-04-24 09:50:45.562",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 307,
+        "time": "2023-04-24 09:50:45.562",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 153 ms so far"
+    },
+    {
+        "id": 308,
+        "time": "2023-04-24 09:50:46.063",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 309,
+        "time": "2023-04-24 09:50:46.064",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 310,
+        "time": "2023-04-24 09:50:46.153",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 311,
+        "time": "2023-04-24 09:50:46.154",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 312,
+        "time": "2023-04-24 09:50:46.154",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 745 ms so far"
+    },
+    {
+        "id": 313,
+        "time": "2023-04-24 09:50:46.654",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 314,
+        "time": "2023-04-24 09:50:46.654",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 315,
+        "time": "2023-04-24 09:50:46.751",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 316,
+        "time": "2023-04-24 09:50:46.752",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 317,
+        "time": "2023-04-24 09:50:46.752",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 1343 ms so far"
+    },
+    {
+        "id": 318,
+        "time": "2023-04-24 09:50:47.252",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 319,
+        "time": "2023-04-24 09:50:47.253",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 320,
+        "time": "2023-04-24 09:50:47.342",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 321,
+        "time": "2023-04-24 09:50:47.342",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 322,
+        "time": "2023-04-24 09:50:47.342",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 1933 ms so far"
+    },
+    {
+        "id": 323,
+        "time": "2023-04-24 09:50:47.843",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 324,
+        "time": "2023-04-24 09:50:47.843",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 325,
+        "time": "2023-04-24 09:50:48.086",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 326,
+        "time": "2023-04-24 09:50:48.086",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 327,
+        "time": "2023-04-24 09:50:48.086",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 2677 ms so far"
+    },
+    {
+        "id": 328,
+        "time": "2023-04-24 09:50:48.587",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 329,
+        "time": "2023-04-24 09:50:48.588",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 330,
+        "time": "2023-04-24 09:50:48.676",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 331,
+        "time": "2023-04-24 09:50:48.677",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 332,
+        "time": "2023-04-24 09:50:48.677",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 3268 ms so far"
+    },
+    {
+        "id": 333,
+        "time": "2023-04-24 09:50:49.177",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 334,
+        "time": "2023-04-24 09:50:49.177",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 335,
+        "time": "2023-04-24 09:50:49.270",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 336,
+        "time": "2023-04-24 09:50:49.270",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 337,
+        "time": "2023-04-24 09:50:49.270",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 3861 ms so far"
+    },
+    {
+        "id": 338,
+        "time": "2023-04-24 09:50:49.771",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 339,
+        "time": "2023-04-24 09:50:49.771",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 340,
+        "time": "2023-04-24 09:50:49.858",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 341,
+        "time": "2023-04-24 09:50:49.859",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 342,
+        "time": "2023-04-24 09:50:49.859",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 4450 ms so far"
+    },
+    {
+        "id": 343,
+        "time": "2023-04-24 09:50:50.359",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 344,
+        "time": "2023-04-24 09:50:50.360",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 345,
+        "time": "2023-04-24 09:50:50.434",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 346,
+        "time": "2023-04-24 09:50:50.434",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 347,
+        "time": "2023-04-24 09:50:50.434",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 5025 ms so far"
+    },
+    {
+        "id": 348,
+        "time": "2023-04-24 09:50:50.934",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 349,
+        "time": "2023-04-24 09:50:50.935",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 350,
+        "time": "2023-04-24 09:50:51.017",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 351,
+        "time": "2023-04-24 09:50:51.017",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 352,
+        "time": "2023-04-24 09:50:51.017",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 5608 ms so far"
+    },
+    {
+        "id": 353,
+        "time": "2023-04-24 09:50:51.517",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 354,
+        "time": "2023-04-24 09:50:51.517",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 355,
+        "time": "2023-04-24 09:50:51.596",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 356,
+        "time": "2023-04-24 09:50:51.596",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 357,
+        "time": "2023-04-24 09:50:51.596",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 6187 ms so far"
+    },
+    {
+        "id": 358,
+        "time": "2023-04-24 09:50:52.096",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 359,
+        "time": "2023-04-24 09:50:52.097",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 360,
+        "time": "2023-04-24 09:50:52.168",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 361,
+        "time": "2023-04-24 09:50:52.168",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 362,
+        "time": "2023-04-24 09:50:52.168",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 6759 ms so far"
+    },
+    {
+        "id": 363,
+        "time": "2023-04-24 09:50:52.670",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 364,
+        "time": "2023-04-24 09:50:52.670",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 365,
+        "time": "2023-04-24 09:50:52.733",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 366,
+        "time": "2023-04-24 09:50:52.733",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 367,
+        "time": "2023-04-24 09:50:52.733",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 7324 ms so far"
+    },
+    {
+        "id": 368,
+        "time": "2023-04-24 09:50:53.233",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 369,
+        "time": "2023-04-24 09:50:53.234",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 370,
+        "time": "2023-04-24 09:50:53.334",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 371,
+        "time": "2023-04-24 09:50:53.335",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 372,
+        "time": "2023-04-24 09:50:53.335",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 7926 ms so far"
+    },
+    {
+        "id": 373,
+        "time": "2023-04-24 09:50:53.836",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 374,
+        "time": "2023-04-24 09:50:53.836",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 375,
+        "time": "2023-04-24 09:50:53.900",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 376,
+        "time": "2023-04-24 09:50:53.900",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 377,
+        "time": "2023-04-24 09:50:53.900",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 8491 ms so far"
+    },
+    {
+        "id": 378,
+        "time": "2023-04-24 09:50:54.401",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 379,
+        "time": "2023-04-24 09:50:54.401",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 380,
+        "time": "2023-04-24 09:50:54.478",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 381,
+        "time": "2023-04-24 09:50:54.478",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 382,
+        "time": "2023-04-24 09:50:54.478",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 9069 ms so far"
+    },
+    {
+        "id": 383,
+        "time": "2023-04-24 09:50:54.978",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 384,
+        "time": "2023-04-24 09:50:54.979",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 385,
+        "time": "2023-04-24 09:50:55.048",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 386,
+        "time": "2023-04-24 09:50:55.048",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 387,
+        "time": "2023-04-24 09:50:55.048",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Waited for 9639 ms so far"
+    },
+    {
+        "id": 388,
+        "time": "2023-04-24 09:50:55.410",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/element' to command name 'findElement'"
+    },
+    {
+        "id": 389,
+        "time": "2023-04-24 09:50:55.410",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/element] with body: {\"strategy\":\"id\",\"selector\":\"com.avon.avonon:id/loginAccountTextField\",\"context\":\"\",\"multiple\":false}"
+    },
+    {
+        "id": 390,
+        "time": "2023-04-24 09:50:55.484",
+        "level": "VERBOSE",
+        "message": "[WD Proxy] Got response with status 404: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page using the given search parameters\",\"stacktrace\":\"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\\n\\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\\n\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\\n\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\\n\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\\n\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\\n\\tat io.netty.chann..."
+    },
+    {
+        "id": 391,
+        "time": "2023-04-24 09:50:55.484",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C] Matched W3C error code 'no such element' to NoSuchElementError"
+    },
+    {
+        "id": 392,
+        "time": "2023-04-24 09:50:55.495",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters."
+    },
+    {
+        "id": 393,
+        "time": "2023-04-24 09:50:55.495",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)]     at AndroidUiautomator2Driver.findElOrEls (/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)"
+    },
+    {
+        "id": 394,
+        "time": "2023-04-24 09:50:55.495",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)]     at runMicrotasks (<anonymous>)"
+    },
+    {
+        "id": 395,
+        "time": "2023-04-24 09:50:55.495",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)]     at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    },
+    {
+        "id": 396,
+        "time": "2023-04-24 09:50:55.495",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)]     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)"
+    },
+    {
+        "id": 397,
+        "time": "2023-04-24 09:50:55.495",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)]     at AndroidUiautomator2Driver.findElement (/root/appium/appium/1.22.2/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)"
+    },
+    {
+        "id": 398,
+        "time": "2023-04-24 09:50:55.496",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- POST /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/element 404 10087 ms - 854"
+    },
+    {
+        "id": 399,
+        "time": "2023-04-24 09:50:55.496",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 400,
+        "time": "2023-04-24 09:50:55.811",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/screenshot"
+    },
+    {
+        "id": 401,
+        "time": "2023-04-24 09:50:55.811",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 402,
+        "time": "2023-04-24 09:50:55.811",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.getScreenshot() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 403,
+        "time": "2023-04-24 09:50:55.812",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'"
+    },
+    {
+        "id": 404,
+        "time": "2023-04-24 09:50:55.812",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969/screenshot] with no body"
+    },
+    {
+        "id": 405,
+        "time": "2023-04-24 09:50:56.097",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAABJGlDQ1BTa2lhAAAokX2Rv0vDQBiG\\nH0sXpQ6ig4NDxi5KVeiiLlUIOkms0OqUpmkV2houKdXZ1T+im7OjCJ27CILgJP4N4uAa37RDAqW+\\nx3f33Mt3P747yK0j5UvQ7UXGsStWrX5hkZHrhQHztQC/H0kP75v/5M3TYtMPPY3fisjocG3ZFK+1\\np3ybcGPKDwmbqnMoHoqL7Qw3MjyIgkg8TvK9wCT8Kd7vdvpeem8Kfu/8TGNNsUGIg00FiyoGl56c\\nFr7YYsA1EVeiI1FIQEcZd5qfsqve1qxLXzkzSt/z/gsORnEcv6TeyQieyrD0nHrFPVgpwPg1cI07\\nsfKKXKsFP4+wXIfVN625nD0j/Ys5tVqTWm1u1NqqwpdzrFo9tkQ7lNim/AfUy02wCLYnZAAAAARz\\nQklUCAgICHwIZIgAACAASURBVHic7N17fFT1ncf/95ncA4EACZeEcDcgoEYUrSCCUsqlINiudWur\\npbrU1W2tl+3lsbXt2vprtxVWalet1lqtv/pYaa3484JKUUTBS9ClEEIS7rmRhFyZJJNkMnN+f4QZ\\nZia3yWQmkxNezz60mTNzvuc7SVDPez7fz9cwTdMUAAAAAACAhdmiPQEAAAAAAID+IuAAAAAAAACW\\nR8ABAAAAAAAsj4ADAAAAAABYHgEHAAAAAACwPAIOAAAAAABgeQQcAAAAAADA8gg4AAAAAACA5RFw\\nAAAAAAAAyyPgAAAAAAAAlkfAAQAAAAAALI+AAwAAAAAAWB4BBwAAAAAAsDwCDgAAAAAAYHkEHAAA\\nAAAAwPIIOAAAAAAAgOURcAAAAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFgeAQcAAAAA\\nALA8Ag4AAAAAAGB5BBwAAAAA..."
+    },
+    {
+        "id": 406,
+        "time": "2023-04-24 09:50:56.098",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.getScreenshot() result: \"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAABJGlDQ1BTa2lhAAAokX2Rv0vDQBiG\\nH0sXpQ6ig4NDxi5KVeiiLlUIOkms0OqUpmkV2houKdXZ1T+im7OjCJ27CILgJP4N4uAa37RDAqW+\\nx3f33Mt3P747yK0j5UvQ7UXGsStWrX5hkZHrhQHztQC/H0kP75v/5M3TYtMPPY3fisjocG3ZFK+1\\np3ybcGPKDwmbqnMoHoqL7Qw3MjyIgkg8TvK9wCT8Kd7vdvpeem8Kfu/8TGNNsUGIg00FiyoGl56c\\nFr7YYsA1EVeiI1FIQEcZd5qfsqve1qxLXzkzSt/z/gsORnEcv6TeyQieyrD0nHrFPVgpwPg1cI07\\nsfKKXKsFP4+wXIfVN625nD0j/Ys5tVqTWm1u1NqqwpdzrFo9tkQ7lNim/AfUy02wCLYnZAAAAARz\\nQklUCAgICHwIZIgAACAASURBVHic7N17fFT1ncf/95ncA4EACZeEcDcgoEYUrSCCUsqlINiudWur\\npbrU1W2tl+3lsbXt2vprtxVWalet1lqtv/pYaa3484JKUUTBS9ClEEIS7rmRhFyZJJNkMnN+f4QZ\\nZia3yWQmkxNezz60mTNzvuc7SVDPez7fz9cwTdMUAAAAAACAhdmiPQEAAAAAAID+IuAAAAAAAACW\\nR8ABAAAAAAAsj4ADAAAAAABYHgEHAAAAAACwPAIOAAAAAABgeQQcAAAAAADA8gg4AAAAAACA5RFw\\nAAAAAAAAyyPgAAAAAAAAlkfAAQAAAAAALI+AAwAAAAAAWB4BBwAAAAAAsDwCDgAAAAAAYHkEHAAA\\nAAAAwPIIOAAAAAAAgOURcAAAAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFgeAQcAAAAA\\nALA8Ag4AAAAAAGB5BBwAAAAAAMDyCDgAAAAAAIDlEXAAAAAAAADLI+AAAAAAAACWR8ABAAAAAAAs\\nj4ADAA..."
+    },
+    {
+        "id": 407,
+        "time": "2023-04-24 09:50:56.100",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- GET /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe/screenshot 200 288 ms - 174646"
+    },
+    {
+        "id": 408,
+        "time": "2023-04-24 09:50:56.100",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    },
+    {
+        "id": 409,
+        "time": "2023-04-24 09:50:56.886",
+        "level": "VERBOSE",
+        "message": "[HTTP] --> DELETE /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe"
+    },
+    {
+        "id": 410,
+        "time": "2023-04-24 09:50:56.886",
+        "level": "VERBOSE",
+        "message": "[HTTP] {}"
+    },
+    {
+        "id": 411,
+        "time": "2023-04-24 09:50:56.886",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Calling AppiumDriver.deleteSession() with args: [\"0145fbb2-eb06-41b3-8af9-938c066276fe\"]"
+    },
+    {
+        "id": 412,
+        "time": "2023-04-24 09:50:56.886",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1682329856886 (09:50:56 GMT+0000 (Coordinated Universal Time))"
+    },
+    {
+        "id": 413,
+        "time": "2023-04-24 09:50:56.886",
+        "level": "VERBOSE",
+        "message": "[Appium] Removing session 0145fbb2-eb06-41b3-8af9-938c066276fe from our master session list"
+    },
+    {
+        "id": 414,
+        "time": "2023-04-24 09:50:56.887",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] Deleting UiAutomator2 session"
+    },
+    {
+        "id": 415,
+        "time": "2023-04-24 09:50:56.887",
+        "level": "VERBOSE",
+        "message": "[debug] [UiAutomator2] Deleting UiAutomator2 server session"
+    },
+    {
+        "id": 416,
+        "time": "2023-04-24 09:50:56.887",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Matched '/' to command name 'deleteSession'"
+    },
+    {
+        "id": 417,
+        "time": "2023-04-24 09:50:56.887",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8208/wd/hub/session/c6aa28a4-bb7f-4cf3-aeaa-37cceb089969] with no body"
+    },
+    {
+        "id": 418,
+        "time": "2023-04-24 09:50:56.894",
+        "level": "VERBOSE",
+        "message": "[debug] [WD Proxy] Got response with status 200: {\"sessionId\":\"c6aa28a4-bb7f-4cf3-aeaa-37cceb089969\",\"value\":null}"
+    },
+    {
+        "id": 419,
+        "time": "2023-04-24 09:50:56.894",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 shell am force-stop com.avon.avonon.uat'"
+    },
+    {
+        "id": 420,
+        "time": "2023-04-24 09:50:56.962",
+        "level": "VERBOSE",
+        "message": "[debug] [Logcat] Stopping logcat capture"
+    },
+    {
+        "id": 421,
+        "time": "2023-04-24 09:50:56.963",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Removing forwarded port socket connection: 8208 "
+    },
+    {
+        "id": 422,
+        "time": "2023-04-24 09:50:56.963",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18:16000 forward --remove tcp:8208'"
+    },
+    {
+        "id": 423,
+        "time": "2023-04-24 09:50:56.968",
+        "level": "VERBOSE",
+        "message": "[UiAutomator2] Restoring hidden api policy to the device default configuration"
+    },
+    {
+        "id": 424,
+        "time": "2023-04-24 09:50:56.968",
+        "level": "VERBOSE",
+        "message": "[debug] [ADB] Running '/opt/android-sdk/platform-tools/adb -P 15008 -s 10.102.32.18\\:16000 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''"
+    },
+    {
+        "id": 425,
+        "time": "2023-04-24 09:50:57.102",
+        "level": "VERBOSE",
+        "message": "[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1682329857102 (09:50:57 GMT+0000 (Coordinated Universal Time))"
+    },
+    {
+        "id": 426,
+        "time": "2023-04-24 09:50:57.102",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Received response: null"
+    },
+    {
+        "id": 427,
+        "time": "2023-04-24 09:50:57.102",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] But deleting session, so not returning"
+    },
+    {
+        "id": 428,
+        "time": "2023-04-24 09:50:57.102",
+        "level": "VERBOSE",
+        "message": "[debug] [W3C (0145fbb2)] Responding to client with driver.deleteSession() result: null"
+    },
+    {
+        "id": 429,
+        "time": "2023-04-24 09:50:57.103",
+        "level": "VERBOSE",
+        "message": "[HTTP] <-- DELETE /wd/hub/session/0145fbb2-eb06-41b3-8af9-938c066276fe 200 217 ms - 14"
+    },
+    {
+        "id": 430,
+        "time": "2023-04-24 09:50:57.103",
+        "level": "VERBOSE",
+        "message": "[HTTP] "
+    }
+]
